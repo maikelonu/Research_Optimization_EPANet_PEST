@@ -1,0 +1,1190 @@
+pcf
+* control data
+restart  estimation
+701 452 12 0 5
+1 1 single point 1 0 0
+10.0 2.0 0.3 0.03 10
+3.0 3.0 0.001
+0.3
+30 0.01 4 4 0.01 3
+1 1 1
+* parameter groups
+t1s	relative 0.01  0.0  switch  2.0 parabolic
+t1f	relative 0.01  0.0  switch  2.0 parabolic
+t2s	relative 0.01  0.0  switch  2.0 parabolic
+t2f	relative 0.01  0.0  switch  2.0 parabolic
+t3s	relative 0.01  0.0  switch  2.0 parabolic
+t3f	relative 0.01  0.0  switch  2.0 parabolic
+t4s	relative 0.01  0.0  switch  2.0 parabolic
+t4f	relative 0.01  0.0  switch  2.0 parabolic
+cc	relative 0.01  0.0  switch  2.0 parabolic
+dd	relative 0.01  0.0  switch  2.0 parabolic
+kkkk	relative 0.01  0.0  switch  2.0 parabolic
+valv	relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+t1s00	fixed	relative   8.0000000E-03  0.008	0.012	t1s	1	0	1
+t1s01	fixed	relative   8.7133000E-02  0.064	0.096	t1s	1	0	1
+t1s02	fixed	relative   6.7133000E-02  0.048	0.072	t1s	1	0	1
+t1s03	fixed	relative   0.3071330      0.24	0.36	t1s	1	0	1
+t1s04	fixed	relative   0.5097780      0.408	0.612	t1s	1	0	1
+t1s05	fixed	relative    1.030670      0.824	1.236	t1s	1	0	1
+t1s06	fixed	relative    1.681250      1.152	1.728	t1s	1	0	1
+t1s07	fixed	relative    1.200130      1.144	1.716	t1s	1	0	1
+t1s08	fixed	relative    1.595380      1.288	1.932	t1s	1	0	1
+t1s09	fixed	relative    1.489030      1.176	1.764	t1s	1	0	1
+t1s10	fixed	relative    1.557040      1.248	1.872	t1s	1	0	1
+t1s11	fixed	relative    1.507890      1.176	1.764	t1s	1	0	1
+t1s12	fixed	relative    1.400580      1.096	1.644	t1s	1	0	1
+t1s13	fixed	relative    1.330050      1.168	1.752	t1s	1	0	1
+t1s14	fixed	relative    1.118190      0.88	1.32	t1s	1	0	1
+t1s15	fixed	relative    1.111740      0.88	1.32	t1s	1	0	1
+t1s16	fixed	relative   0.9814210      0.72	1.08	t1s	1	0	1
+t1s17	fixed	relative   0.9869190      0.784	1.176	t1s	1	0	1
+t1s18	fixed	relative    1.007660      0.8	1.2	t1s	1	0	1
+t1s19	fixed	relative    1.192900      0.952	1.428	t1s	1	0	1
+t1s20	fixed	relative    1.337050      1.064	1.596	t1s	1	0	1
+t1s21	fixed	relative    1.246780      0.992	1.488	t1s	1	0	1
+t1s22	fixed	relative   0.7973290      0.632	0.948	t1s	1	0	1
+t1s23	fixed	relative   0.4371330      0.344	0.516	t1s	1	0	1
+t1f00	fixed	relative   0.3894770      0.32	0.48	t1f	1	0	1
+t1f01	fixed	relative   0.3194770      0.264	0.396	t1f	1	0	1
+t1f02	fixed	relative   0.3394770      0.28	0.42	t1f	1	0	1
+t1f03	fixed	relative   0.3894770      0.32	0.48	t1f	1	0	1
+t1f04	fixed	relative   0.7208620      0.584	0.876	t1f	1	0	1
+t1f05	fixed	relative    1.237420      1.008	1.512	t1f	1	0	1
+t1f06	fixed	relative    1.475730      1.064	1.596	t1f	1	0	1
+t1f07	fixed	relative    1.501160      1.152	1.728	t1f	1	0	1
+t1f08	fixed	relative    1.547350      1.256	1.884	t1f	1	0	1
+t1f09	fixed	relative    1.699520      1.336	2.004	t1f	1	0	1
+t1f10	fixed	relative    1.907920      1.52	2.28	t1f	1	0	1
+t1f11	fixed	relative    1.850640      1.48	2.22	t1f	1	0	1
+t1f12	fixed	relative    1.719110      1.376	2.064	t1f	1	0	1
+t1f13	fixed	relative    1.462670      1.168	1.752	t1f	1	0	1
+t1f14	fixed	relative    1.158850      0.944	1.416	t1f	1	0	1
+t1f15	fixed	relative    1.064740      0.824	1.236	t1f	1	0	1
+t1f16	fixed	relative   0.9481920      0.728	1.092	t1f	1	0	1
+t1f17	fixed	relative   0.6895340      0.552	0.828	t1f	1	0	1
+t1f18	fixed	relative   0.7385260      0.6	0.9	t1f	1	0	1
+t1f19	fixed	relative   0.7485920      0.608	0.912	t1f	1	0	1
+t1f20	fixed	relative   0.6962830      0.592	0.888	t1f	1	0	1
+t1f21	fixed	relative   0.5683110      0.464	0.696	t1f	1	0	1
+t1f22	fixed	relative   0.4000000      0.4	0.6	t1f	1	0	1
+t1f23	fixed	relative   0.4494770      0.368	0.552	t1f	1	0	1
+t2s00	fixed	relative   0.5331550      0.416	0.624	t2s	1	0	1
+t2s01	fixed	relative   0.3431550      0.264	0.396	t2s	1	0	1
+t2s02	fixed	relative   0.1031550      0.072	0.108	t2s	1	0	1
+t2s03	fixed	relative   3.6000000E-02  0.024	0.036	t2s	1	0	1
+t2s04	fixed	relative   0.1200000      0.08	0.12	t2s	1	0	1
+t2s05	fixed	relative    1.284390      1.016	1.524	t2s	1	0	1
+t2s06	fixed	relative    1.555840      1.216	1.824	t2s	1	0	1
+t2s07	fixed	relative    1.778200      1.304	1.956	t2s	1	0	1
+t2s08	fixed	relative    1.654190      1.32	1.98	t2s	1	0	1
+t2s09	fixed	relative    1.620540      1.336	2.004	t2s	1	0	1
+t2s10	fixed	relative    1.650760      1.384	2.076	t2s	1	0	1
+t2s11	fixed	relative    1.675550      1.344	2.016	t2s	1	0	1
+t2s12	fixed	relative    1.662110      1.336	2.004	t2s	1	0	1
+t2s13	fixed	relative    1.568370      1.216	1.824	t2s	1	0	1
+t2s14	fixed	relative    1.169270      0.992	1.488	t2s	1	0	1
+t2s15	fixed	relative   0.8316680      0.808	1.212	t2s	1	0	1
+t2s16	fixed	relative   0.9207540      0.744	1.116	t2s	1	0	1
+t2s17	fixed	relative   0.7429800      0.592	0.888	t2s	1	0	1
+t2s18	fixed	relative   0.6322040      0.496	0.744	t2s	1	0	1
+t2s19	fixed	relative   0.9628180      0.76	1.14	t2s	1	0	1
+t2s20	fixed	relative   0.8331550      0.656	0.984	t2s	1	0	1
+t2s21	fixed	relative   0.8130290      0.64	0.96	t2s	1	0	1
+t2s22	fixed	relative   0.7630200      0.6	0.9	t2s	1	0	1
+t2s23	fixed	relative   0.7431550      0.584	0.876	t2s	1	0	1
+t2f00	fixed	relative   0.3780210      0.296	0.444	t2f	1	0	1
+t2f01	fixed	relative   0.3480210      0.272	0.408	t2f	1	0	1
+t2f02	fixed	relative   0.2680210      0.208	0.312	t2f	1	0	1
+t2f03	fixed	relative   0.1980210      0.152	0.228	t2f	1	0	1
+t2f04	fixed	relative   0.4606700      0.368	0.552	t2f	1	0	1
+t2f05	fixed	relative   0.1760000      0.176	0.264	t2f	1	0	1
+t2f06	fixed	relative   0.5920000      0.592	0.888	t2f	1	0	1
+t2f07	fixed	relative    1.269450      1.024	1.536	t2f	1	0	1
+t2f08	fixed	relative    1.544210      1.256	1.884	t2f	1	0	1
+t2f09	fixed	relative    1.857130      1.352	2.028	t2f	1	0	1
+t2f10	fixed	relative    1.833590      1.464	2.196	t2f	1	0	1
+t2f11	fixed	relative    1.603580      1.32	1.98	t2f	1	0	1
+t2f12	fixed	relative    1.649630      1.32	1.98	t2f	1	0	1
+t2f13	fixed	relative    1.449950      1.232	1.848	t2f	1	0	1
+t2f14	fixed	relative    1.561580      1.208	1.812	t2f	1	0	1
+t2f15	fixed	relative    1.113070      0.864	1.296	t2f	1	0	1
+t2f16	fixed	relative    1.158230      0.896	1.344	t2f	1	0	1
+t2f17	fixed	relative    1.124220      0.896	1.344	t2f	1	0	1
+t2f18	fixed	relative    1.264690      1.008	1.512	t2f	1	0	1
+t2f19	fixed	relative    1.236190      0.984	1.476	t2f	1	0	1
+t2f20	fixed	relative    1.265020      1.008	1.512	t2f	1	0	1
+t2f21	fixed	relative   0.8500180      0.672	1.008	t2f	1	0	1
+t2f22	fixed	relative   0.3852150      0.304	0.456	t2f	1	0	1
+t2f23	fixed	relative   0.4280210      0.336	0.504	t2f	1	0	1
+t4s00	fixed	relative   0.3963830      0.32	0.48	t4s	1	0	1
+t4s01	fixed	relative   0.4963830      0.4	0.6	t4s	1	0	1
+t4s02	fixed	relative   0.4663830      0.376	0.564	t4s	1	0	1
+t4s03	fixed	relative   0.1263830      0.104	0.156	t4s	1	0	1
+t4s04	fixed	relative   0.2763830      0.224	0.336	t4s	1	0	1
+t4s05	fixed	relative    1.256380      1.008	1.512	t4s	1	0	1
+t4s06	fixed	relative    1.627980      1.304	1.956	t4s	1	0	1
+t4s07	fixed	relative    1.708270      1.368	2.052	t4s	1	0	1
+t4s08	fixed	relative    1.797890      1.44	2.16	t4s	1	0	1
+t4s09	fixed	relative    1.972380      1.528	2.292	t4s	1	0	1
+t4s10	fixed	relative    1.537880      1.232	1.848	t4s	1	0	1
+t4s11	fixed	relative    1.607820      1.288	1.932	t4s	1	0	1
+t4s12	fixed	relative    1.558600      1.248	1.872	t4s	1	0	1
+t4s13	fixed	relative    1.559860      1.248	1.872	t4s	1	0	1
+t4s14	fixed	relative    1.410230      1.128	1.692	t4s	1	0	1
+t4s15	fixed	relative    1.347490      1.08	1.62	t4s	1	0	1
+t4s16	fixed	relative    1.387460      1.112	1.668	t4s	1	0	1
+t4s17	fixed	relative    1.107730      0.888	1.332	t4s	1	0	1
+t4s18	fixed	relative    1.026380      0.824	1.236	t4s	1	0	1
+t4s19	fixed	relative   0.3863830      0.312	0.468	t4s	1	0	1
+t4s20	fixed	relative   0.2563830      0.208	0.312	t4s	1	0	1
+t4s21	fixed	relative   0.1263830      0.104	0.156	t4s	1	0	1
+t4s22	fixed	relative   0.1663830      0.136	0.204	t4s	1	0	1
+t4s23	fixed	relative   0.3963830      0.32	0.48	t4s	1	0	1
+t4f00	fixed	relative   0.1207100      0.096	0.144	t4f	1	0	1
+t4f01	fixed	relative   0.2207100      0.176	0.264	t4f	1	0	1
+t4f02	fixed	relative   0.1107100      0.088	0.132	t4f	1	0	1
+t4f03	fixed	relative   5.0710000E-02  0.04	0.06	t4f	1	0	1
+t4f04	fixed	relative   0.1007100      0.08	0.12	t4f	1	0	1
+t4f05	fixed	relative   0.1507100      0.12	0.18	t4f	1	0	1
+t4f06	fixed	relative   0.7307100      0.584	0.876	t4f	1	0	1
+t4f07	fixed	relative   0.9806250      0.784	1.176	t4f	1	0	1
+t4f08	fixed	relative    1.470730      1.176	1.764	t4f	1	0	1
+t4f09	fixed	relative    1.821100      1.456	2.184	t4f	1	0	1
+t4f10	fixed	relative    1.650730      1.32	1.98	t4f	1	0	1
+t4f11	fixed	relative    1.950720      1.56	2.34	t4f	1	0	1
+t4f12	fixed	relative    1.651340      1.32	1.98	t4f	1	0	1
+t4f13	fixed	relative    1.571070      1.256	1.884	t4f	1	0	1
+t4f14	fixed	relative    1.651340      1.32	1.98	t4f	1	0	1
+t4f15	fixed	relative    1.450730      1.16	1.74	t4f	1	0	1
+t4f16	fixed	relative    1.550710      1.24	1.86	t4f	1	0	1
+t4f17	fixed	relative    1.380710      1.104	1.656	t4f	1	0	1
+t4f18	fixed	relative    1.450710      1.16	1.74	t4f	1	0	1
+t4f19	fixed	relative    1.100710      0.88	1.32	t4f	1	0	1
+t4f20	fixed	relative    1.150710      0.92	1.38	t4f	1	0	1
+t4f21	fixed	relative   0.5607100      0.448	0.672	t4f	1	0	1
+t4f22	fixed	relative   0.5207100      0.416	0.624	t4f	1	0	1
+t4f23	fixed	relative   0.6007100      0.48	0.72	t4f	1	0	1
+t3s00	fixed	relative   5.6000000E-03  0.0056	0.018	t3s	1	0	1
+t3s01	fixed	relative   5.6000000E-03  0.0056	0.018	t3s	1	0	1
+t3s02	fixed	relative   5.6000000E-03  0.0056	0.018	t3s	1	0	1
+t3s03	fixed	relative   1.6800000E-02  0.0168	0.054	t3s	1	0	1
+t3s04	fixed	relative   0.4406300      0.2632	0.846	t3s	1	0	1
+t3s05	fixed	relative   0.6579790      0.4816	1.548	t3s	1	0	1
+t3s06	fixed	relative    1.685000      0.8568	2.754	t3s	1	0	1
+t3s07	fixed	relative    1.572970      0.9352	3.006	t3s	1	0	1
+t3s08	fixed	relative    1.543520      0.896	2.88	t3s	1	0	1
+t3s09	fixed	relative    1.650510      0.8736	2.808	t3s	1	0	1
+t3s10	fixed	relative    1.578400      0.8344	2.682	t3s	1	0	1
+t3s11	fixed	relative    1.575640      0.8568	2.754	t3s	1	0	1
+t3s12	fixed	relative    1.428250      0.7504	2.412	t3s	1	0	1
+t3s13	fixed	relative    1.335740      0.756	2.43	t3s	1	0	1
+t3s14	fixed	relative    1.262610      0.6664	2.142	t3s	1	0	1
+t3s15	fixed	relative    1.263420      0.6608	2.124	t3s	1	0	1
+t3s16	fixed	relative    1.256980      0.6776	2.178	t3s	1	0	1
+t3s17	fixed	relative    1.227490      0.7056	2.268	t3s	1	0	1
+t3s18	fixed	relative    1.289740      0.7448	2.394	t3s	1	0	1
+t3s19	fixed	relative    1.280020      0.7336	2.358	t3s	1	0	1
+t3s20	fixed	relative    1.079990      0.6216	1.998	t3s	1	0	1
+t3s21	fixed	relative   0.8601380      0.4984	1.602	t3s	1	0	1
+t3s22	fixed	relative   0.6004700      0.3528	1.134	t3s	1	0	1
+t3s23	fixed	relative   0.4106300      0.2464	0.792	t3s	1	0	1
+t3f00	fixed	relative   0.3482520      0.2128	0.684	t3f	1	0	1
+t3f01	fixed	relative   2.8000000E-02  0.028	0.09	t3f	1	0	1
+t3f02	fixed	relative   6.8252000E-02  0.056	0.18	t3f	1	0	1
+t3f03	fixed	relative   6.8252000E-02  0.056	0.18	t3f	1	0	1
+t3f04	fixed	relative   0.1022180      0.0896	0.288	t3f	1	0	1
+t3f05	fixed	relative   0.8136670      0.4256	1.368	t3f	1	0	1
+t3f06	fixed	relative   0.7924150      0.5096	1.638	t3f	1	0	1
+t3f07	fixed	relative    1.713210      0.896	2.88	t3f	1	0	1
+t3f08	fixed	relative    1.751410      0.9464	3.042	t3f	1	0	1
+t3f09	fixed	relative    1.695020      1.0024	3.222	t3f	1	0	1
+t3f10	fixed	relative    1.747530      0.9408	3.024	t3f	1	0	1
+t3f11	fixed	relative    1.715510      0.9352	3.006	t3f	1	0	1
+t3f12	fixed	relative    1.680190      0.9072	2.916	t3f	1	0	1
+t3f13	fixed	relative    1.722100      0.9016	2.898	t3f	1	0	1
+t3f14	fixed	relative    1.307860      0.7056	2.268	t3f	1	0	1
+t3f15	fixed	relative    1.240520      0.7	2.25	t3f	1	0	1
+t3f16	fixed	relative    1.244370      0.6888	2.214	t3f	1	0	1
+t3f17	fixed	relative   0.9987990      0.5432	1.746	t3f	1	0	1
+t3f18	fixed	relative   0.9966320      0.5376	1.728	t3f	1	0	1
+t3f19	fixed	relative    1.023060      0.5936	1.908	t3f	1	0	1
+t3f20	fixed	relative    1.178730      0.6776	2.178	t3f	1	0	1
+t3f21	fixed	relative   0.9259380      0.5824	1.872	t3f	1	0	1
+t3f22	fixed	relative   0.4960890      0.2968	0.954	t3f	1	0	1
+t3f23	fixed	relative   0.3482520      0.2128	0.684	t3f	1	0	1
+cc141	none	relative    136.3470      136	150	cc	1	0	1
+cc142	none	relative    136.6750      136	150	cc	1	0	1
+cc143	none	relative    137.9210      136	150	cc	1	0	1
+tt1b40	fixed	relative   3.5819000E-02  0.02	0.06	dd	1	0	1
+tt1d3	fixed	relative   2.2672000E-02  0.019415	0.058245	dd	1	0	1
+tt1d14	fixed	relative   2.8985400E-02  0.015	0.045	dd	1	0	1
+tt1d15	fixed	relative   3.2359200E-02  0.015	0.045	dd	1	0	1
+tt1d18	fixed	relative   8.4272000E-03  0.005	0.015	dd	1	0	1
+tt1d19	fixed	relative   8.4272000E-03  0.005	0.015	dd	1	0	1
+tt1a10	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1a13	fixed	relative   1.5000000E-02  0.005	0.015	dd	1	0	1
+tt1a19	fixed	relative   2.5500000E-03  0.00255	0.00765	dd	1	0	1
+tt1a24	fixed	relative   1.5475000E-02  0.015475	0.046425	dd	1	0	1
+tt1c1	fixed	relative   3.8475000E-02  0.015	0.045	dd	1	0	1
+tt1c6	fixed	relative   5.9307000E-02  0.03	0.09	dd	1	0	1
+tt1c12	fixed	relative   5.0000000E-03  0.005	0.015	dd	1	0	1
+tt1c18	fixed	relative   1.9358200E-02  0.01	0.03	dd	1	0	1
+tt1c21	fixed	relative   2.1856400E-02  0.01	0.03	dd	1	0	1
+tt1c23	fixed	relative   4.4554800E-02  0.03	0.09	dd	1	0	1
+tt1c26	fixed	relative   8.5848800E-02  0.04	0.12	dd	1	0	1
+tt1c30	fixed	relative   3.5873100E-02  0.015	0.045	dd	1	0	1
+tt1c34	fixed	relative   6.6068400E-02  0.035	0.105	dd	1	0	1
+tt1c36	fixed	relative   0.1146409      0.045	0.135	dd	1	0	1
+tt1c43	fixed	relative   5.2513400E-02  0.025	0.075	dd	1	0	1
+tt1b2	fixed	relative   5.0000000E-03  0.005	0.015	dd	1	0	1
+tt1b7	fixed	relative   4.5000000E-02  0.015	0.045	dd	1	0	1
+tt1b18	fixed	relative   1.4271600E-02  0.01	0.03	dd	1	0	1
+tt1v10_a	fixed	relative   1.5000000E-02  0.005	0.015	dd	1	0	1
+tt1v11_b	fixed	relative   3.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b70	fixed	relative   3.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b71	fixed	relative   2.9077700E-02  0.025	0.075	dd	1	0	1
+tt1b73	fixed	relative   2.4650700E-02  0.01	0.03	dd	1	0	1
+tt1b77	fixed	relative   2.0000000E-02  0.02	0.06	dd	1	0	1
+tt1b80	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b82	fixed	relative   4.3663000E-02  0.015	0.045	dd	1	0	1
+tt1b76	fixed	relative   2.1261400E-02  0.015	0.045	dd	1	0	1
+tt1b23	fixed	relative   4.2943200E-02  0.02	0.06	dd	1	0	1
+tt1v12_b	fixed	relative   4.4609974E-02  0.015	0.045	dd	1	0	1
+tt1v12_a	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b30	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b34	fixed	relative   2.8239300E-02  0.015	0.045	dd	1	0	1
+tt1b35	fixed	relative   1.7018700E-02  0.01	0.03	dd	1	0	1
+tt1b26	fixed	relative   7.5000000E-02  0.025	0.075	dd	1	0	1
+tt1b27	fixed	relative   7.8670700E-02  0.04	0.12	dd	1	0	1
+tt1b37	fixed	relative   6.1849900E-02  0.045	0.135	dd	1	0	1
+tt1b49	fixed	relative   2.1248800E-02  0.015	0.045	dd	1	0	1
+tt1b51	fixed	relative   2.8815900E-02  0.01	0.03	dd	1	0	1
+tt1b53	fixed	relative   2.5000000E-02  0.025	0.075	dd	1	0	1
+tt1b58	fixed	relative   3.7809900E-02  0.02	0.06	dd	1	0	1
+tt1v14_a	fixed	relative   5.3841207E-02  0.02	0.06	dd	1	0	1
+tt1v14_b	fixed	relative   8.7490450E-03  0.005	0.015	dd	1	0	1
+tt1b42	fixed	relative   7.6899800E-02  0.03	0.09	dd	1	0	1
+tt1b59	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b60	fixed	relative   3.5819000E-02  0.02	0.06	dd	1	0	1
+tt1b46	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt1b62	fixed	relative   8.9082600E-02  0.045	0.135	dd	1	0	1
+tt1b64	fixed	relative   8.7494000E-03  0.005	0.015	dd	1	0	1
+tt1b66	fixed	relative   1.9633200E-02  0.015	0.045	dd	1	0	1
+tt1b67	fixed	relative   2.1499900E-02  0.01	0.03	dd	1	0	1
+tt1b65	fixed	relative   8.7494000E-03  0.005	0.015	dd	1	0	1
+tt1b48	fixed	relative   2.7310200E-02  0.01	0.03	dd	1	0	1
+tt1c41	fixed	relative   2.6879200E-02  0.01	0.03	dd	1	0	1
+tt1a34	fixed	relative   2.1979700E-02  0.0107	0.0321	dd	1	0	1
+tt1a36	fixed	relative   3.7115300E-02  0.026165	0.078495	dd	1	0	1
+tt1v6_a	fixed	relative   2.6610000E-02  0.00887	0.02661	dd	1	0	1
+tt1a35	fixed	relative   1.2485000E-02  0.012485	0.037455	dd	1	0	1
+tt1a40	fixed	relative   4.7759400E-02  0.034075	0.102225	dd	1	0	1
+tt1a41	fixed	relative   7.8214300E-02  0.046225	0.138675	dd	1	0	1
+tt1v7_a	fixed	relative   1.6870000E-02  0.01687	0.05061	dd	1	0	1
+tt1a38	fixed	relative   1.7275000E-02  0.017275	0.051825	dd	1	0	1
+tt2e23	fixed	relative   0.2047845      0.0682615	0.2047845	dd	1	0	1
+tt2e6	fixed	relative   3.2270000E-03  0.00138	0.00414	dd	1	0	1
+tt2e9	fixed	relative   0.1063860      0.055735	0.167205	dd	1	0	1
+tt2e7	fixed	relative   1.7760000E-02  0.01776	0.05328	dd	1	0	1
+tt2e9_5	fixed	relative   6.5394980E-02  0.0468	0.1404	dd	1	0	1
+tt2e10	fixed	relative   2.7223000E-03  0.00105	0.00315	dd	1	0	1
+tt2e13	fixed	relative   3.9270000E-02  0.01309	0.03927	dd	1	0	1
+tt2e12	fixed	relative   2.1044600E-02  0.014595	0.043785	dd	1	0	1
+tt2e14	fixed	relative   8.9400000E-03  0.00298	0.00894	dd	1	0	1
+tt2e15	fixed	relative   5.1531100E-02  0.0415045	0.1245135	dd	1	0	1
+tt2e16	fixed	relative   9.7961500E-02  0.041167	0.123501	dd	1	0	1
+tt2v22_a	fixed	relative   2.0864596E-02  0.00977	0.02931	dd	1	0	1
+tt2e18	fixed	relative   1.0100000E-02  0.0101	0.0303	dd	1	0	1
+tt2e20	fixed	relative   9.9720500E-02  0.052635	0.157905	dd	1	0	1
+tt2e21	fixed	relative   2.3205000E-02  0.023205	0.069615	dd	1	0	1
+tt2e24	fixed	relative   1.8030000E-02  0.00601	0.01803	dd	1	0	1
+tt2e25	fixed	relative   2.2052000E-02  0.017225	0.051675	dd	1	0	1
+tt2e27	fixed	relative   4.9260900E-02  0.048245	0.144735	dd	1	0	1
+tt2e29	fixed	relative   0.1521146      0.0641	0.1923	dd	1	0	1
+tt2e30	fixed	relative   1.1505000E-02  0.011505	0.034515	dd	1	0	1
+tt2e32	fixed	relative   3.0829100E-02  0.01415	0.04245	dd	1	0	1
+tt2e33	fixed	relative   8.4700000E-03  0.00847	0.02541	dd	1	0	1
+tt2e35	fixed	relative   0.2795857      0.115	0.345	dd	1	0	1
+tt2e36	fixed	relative   4.8188500E-02  0.031205	0.093615	dd	1	0	1
+tt2v23_a	fixed	relative   8.7900000E-03  0.00293	0.00879	dd	1	0	1
+tt2v23_b	fixed	relative   1.7305612E-02  0.00765	0.02295	dd	1	0	1
+tt2e37	fixed	relative   4.2162000E-03  0.002295	0.006885	dd	1	0	1
+tt2e39	fixed	relative   4.5040600E-02  0.02388	0.07164	dd	1	0	1
+tt2e40	fixed	relative   5.9610000E-02  0.01987	0.05961	dd	1	0	1
+tt2e42	fixed	relative   1.5015000E-02  0.005005	0.015015	dd	1	0	1
+tt2e43	fixed	relative   3.0030000E-02  0.01001	0.03003	dd	1	0	1
+tt2e44	fixed	relative   5.5083700E-02  0.021315	0.063945	dd	1	0	1
+tt4f17	fixed	relative   2.5738100E-02  0.025	0.075	dd	1	0	1
+tt4f13	fixed	relative   1.2533400E-02  0.005	0.015	dd	1	0	1
+tt4f15	fixed	relative   2.6626900E-02  0.015	0.045	dd	1	0	1
+tt4f18	fixed	relative   3.5000000E-02  0.035	0.105	dd	1	0	1
+tt4f21	fixed	relative   0.1157243      0.055	0.165	dd	1	0	1
+tt4f22	fixed	relative   0.1157243      0.055	0.165	dd	1	0	1
+tt4f23	fixed	relative   0.1157243      0.055	0.165	dd	1	0	1
+tt4f24	fixed	relative   2.6626900E-02  0.015	0.045	dd	1	0	1
+tt3h17	fixed	relative   1.5000000E-02  0.005	0.015	dd	1	0	1
+tt3v33_b	fixed	relative   1.5000000E-02  0.005	0.015	dd	1	0	1
+tt3h6	fixed	relative   1.2931000E-02  0.01	0.03	dd	1	0	1
+tt3h8	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt3h9	fixed	relative   5.0000000E-02  0.05	0.15	dd	1	0	1
+tt3h11	fixed	relative   3.9600000E-02  0.025	0.075	dd	1	0	1
+tt3h34	fixed	relative   3.0000000E-02  0.03	0.09	dd	1	0	1
+tt3h36	fixed	relative   7.0005600E-02  0.04	0.12	dd	1	0	1
+tt3h39	fixed	relative   6.7696800E-02  0.03	0.09	dd	1	0	1
+tt3h41	fixed	relative   3.9831300E-02  0.03	0.09	dd	1	0	1
+tt3v34_a	fixed	relative   4.2127283E-02  0.02	0.06	dd	1	0	1
+tt3v36_b	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt3h55	fixed	relative   0.1956595      0.08	0.24	dd	1	0	1
+tt3h58	fixed	relative   0.1411861      0.06	0.18	dd	1	0	1
+tt3h61	fixed	relative   7.8207800E-02  0.07	0.21	dd	1	0	1
+tt3h64	fixed	relative   0.1432167      0.06	0.18	dd	1	0	1
+tt3h78	fixed	relative   2.5358500E-02  0.01	0.03	dd	1	0	1
+tt3h79	fixed	relative   2.5358500E-02  0.01	0.03	dd	1	0	1
+tt3v38_a	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt3h81	fixed	relative   1.5000000E-02  0.015	0.045	dd	1	0	1
+tt3h82	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt3v39_b	fixed	relative   0.1284243      0.06	0.18	dd	1	0	1
+tt3h67	fixed	relative   9.1407800E-02  0.035	0.105	dd	1	0	1
+tt3h70	fixed	relative   4.5000000E-02  0.045	0.135	dd	1	0	1
+tt3h73	fixed	relative   0.1348854      0.05	0.15	dd	1	0	1
+tt3h75	fixed	relative   4.5000000E-02  0.015	0.045	dd	1	0	1
+tt3v35_b	fixed	relative   5.3950925E-02  0.02	0.06	dd	1	0	1
+tt3v34_b	fixed	relative   1.8100597E-02  0.01	0.03	dd	1	0	1
+tt3h43	fixed	relative   4.2145200E-02  0.02	0.06	dd	1	0	1
+tt3h44	fixed	relative   0.1050000      0.035	0.105	dd	1	0	1
+tt3h45	fixed	relative   4.2127200E-02  0.02	0.06	dd	1	0	1
+tt3h47	fixed	relative   3.0000000E-02  0.03	0.09	dd	1	0	1
+tt3h49	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt3h50	fixed	relative   7.5000000E-02  0.025	0.075	dd	1	0	1
+tt3h52	fixed	relative   5.0000000E-03  0.005	0.015	dd	1	0	1
+tt3v32_a	fixed	relative   4.5000000E-02  0.015	0.045	dd	1	0	1
+tt3h15	fixed	relative   0.1650000      0.055	0.165	dd	1	0	1
+tt3h13	fixed	relative   0.1049143      0.035	0.105	dd	1	0	1
+tt3h12	fixed	relative   3.5160200E-02  0.02	0.06	dd	1	0	1
+tt3h29	fixed	relative   1.2922300E-02  0.01	0.03	dd	1	0	1
+tt3h27	fixed	relative   3.0000000E-02  0.03	0.09	dd	1	0	1
+tt3h25	fixed	relative   2.3851100E-02  0.02	0.06	dd	1	0	1
+tt3h22	fixed	relative   2.0000000E-02  0.02	0.06	dd	1	0	1
+tt3h20	fixed	relative   2.6225200E-02  0.025	0.075	dd	1	0	1
+tt3h18	fixed	relative   4.5000000E-02  0.015	0.045	dd	1	0	1
+tt3v54_b	fixed	relative   2.2154212E-02  0.015	0.045	dd	1	0	1
+tt3v43_b	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt3i_14	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt3i_94	fixed	relative   1.5000000E-02  0.005	0.015	dd	1	0	1
+tt3i_15	fixed	relative   0.1350000      0.045	0.135	dd	1	0	1
+tt3i_16	fixed	relative   9.5162420E-02  0.045	0.135	dd	1	0	1
+tt3v44_b	fixed	relative   4.5000000E-02  0.015	0.045	dd	1	0	1
+tt3v45_a	fixed	relative   9.8795220E-02  0.035	0.105	dd	1	0	1
+tt3v45_b	fixed	relative   9.0000000E-02  0.03	0.09	dd	1	0	1
+tt3i_36	fixed	relative   0.1800000      0.06	0.18	dd	1	0	1
+tt3i_37	fixed	relative   0.1350000      0.045	0.135	dd	1	0	1
+tt3i_39	fixed	relative   3.0000000E-02  0.03	0.09	dd	1	0	1
+tt3v46_a	fixed	relative   1.4815000E-02  0.014815	0.044445	dd	1	0	1
+tt3i_18	fixed	relative   1.3636350E-02  0.005	0.015	dd	1	0	1
+tt3i_23	fixed	relative   5.0661500E-03  0.005	0.015	dd	1	0	1
+tt3i_24	fixed	relative   2.0000000E-02  0.02	0.06	dd	1	0	1
+tt3i_25	fixed	relative   0.1018617      0.065	0.195	dd	1	0	1
+tt3i_27	fixed	relative   7.5000000E-02  0.025	0.075	dd	1	0	1
+tt3i_31	fixed	relative   5.8658350E-02  0.03	0.09	dd	1	0	1
+tt3i_29	fixed	relative   9.0000000E-02  0.03	0.09	dd	1	0	1
+tt3i_33	fixed	relative   1.4396480E-02  0.01	0.03	dd	1	0	1
+tt3i_84	fixed	relative   4.0690390E-02  0.04	0.12	dd	1	0	1
+tt3v56_b	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1
+tt3i_79	fixed	relative   4.0000000E-02  0.04	0.12	dd	1	0	1
+tt3i_82	fixed	relative   4.0000000E-02  0.04	0.12	dd	1	0	1
+tt3i_90	fixed	relative   4.2395840E-02  0.025	0.075	dd	1	0	1
+tt3i_92	fixed	relative   2.0000000E-02  0.02	0.06	dd	1	0	1
+tt3i_93	fixed	relative   5.4006750E-02  0.03	0.09	dd	1	0	1
+tt3i_87	fixed	relative   0.2250000      0.075	0.225	dd	1	0	1
+tt3i_88	fixed	relative   4.0000000E-02  0.04	0.12	dd	1	0	1
+tt3i_85	fixed	relative   5.4006750E-02  0.03	0.09	dd	1	0	1
+tt3v47_a	fixed	relative   1.4899732E-02  0.01	0.03	dd	1	0	1
+tt3i_42	fixed	relative   0.1682256      0.065	0.195	dd	1	0	1
+tt3i_41	fixed	relative   1.4899750E-02  0.01	0.03	dd	1	0	1
+tt3i_44	fixed	relative   2.0000000E-02  0.02	0.06	dd	1	0	1
+tt3v48_a	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt3v52_b	fixed	relative   1.4899732E-02  0.01	0.03	dd	1	0	1
+tt3v49_b	fixed	relative   8.6764264E-02  0.035	0.105	dd	1	0	1
+tt3v53_b	fixed	relative   5.0000000E-03  0.005	0.015	dd	1	0	1
+tt3i_77	fixed	relative   5.0000000E-02  0.05	0.15	dd	1	0	1
+tt3i_65	fixed	relative   0.1634068      0.055	0.165	dd	1	0	1
+tt3i_66	fixed	relative   4.2942250E-02  0.025	0.075	dd	1	0	1
+tt3i_67	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt3i_69	fixed	relative   5.5000000E-02  0.055	0.165	dd	1	0	1	
+tt3i_71	fixed	relative   0.1350000      0.045	0.135	dd	1	0	1	
+tt3i_73	fixed	relative   7.7997090E-02  0.07	0.21	dd	1	0	1	
+tt3i_75	fixed	relative   7.7893530E-02  0.035	0.105	dd	1	0	1	
+tt3i_76	fixed	relative   9.8309010E-02  0.04	0.12	dd	1	0	1	
+tt3i_46	fixed	relative   0.1350000      0.045	0.135	dd	1	0	1	
+tt3i_48	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1	
+tt3i_49	fixed	relative   4.1982580E-02  0.03	0.09	dd	1	0	1	
+tt3v51_b	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1	
+tt3i_58	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1	
+tt3i_51	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1	
+tt3i_53	fixed	relative   1.0000000E-02  0.01	0.03	dd	1	0	1	
+tt3i_56	fixed	relative   9.9403200E-02  0.055	0.165	dd	1	0	1	
+tt3i_57	fixed	relative   3.5000000E-02  0.035	0.105	dd	1	0	1	
+tt3v50_b	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1	
+tt3i_62	fixed	relative   4.1982580E-02  0.03	0.09	dd	1	0	1	
+tt4v58_b	fixed	relative   3.0000000E-02  0.03	0.09	dd	1	0	1
+tt4v59_b	fixed	relative   6.0000000E-02  0.02	0.06	dd	1	0	1
+tt1b44	fixed	relative   1.0000000E-04  0.0001	0.0002	dd	1	0	1
+kkkkt2	fixed	relative    11.62765      0.1	20	kkkk	1	0	1
+kkkkt85	fixed	relative   0.5800000      0.1	20	kkkk	1	0	1
+kkkkt86	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt87	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt88	fixed	relative   0.9000000      0.1	20	kkkk	1	0	1
+kkkkt89	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt90	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt91	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt92	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt3	fixed	relative    8.531158      0.1	20	kkkk	1	0	1
+kkkkt4	fixed	relative    4.340752      0.1	20	kkkk	1	0	1
+kkkkt5	fixed	relative    12.48456      0.1	20	kkkk	1	0	1
+kkkkt6	fixed	relative    4.867891      0.1	20	kkkk	1	0	1
+kkkkt7	fixed	relative    2.604006      0.1	20	kkkk	1	0	1
+kkkkt70	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt71	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt73	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt74	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt75	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt76	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt77	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt78	fixed	relative    2.080000      0.1	20	kkkk	1	0	1
+kkkkt79	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt80	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt81	fixed	relative    1.180000      0.1	20	kkkk	1	0	1
+kkkkt69	fixed	relative    1.900000      0.1	20	kkkk	1	0	1
+kkkkt28	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt29	fixed	relative    1.770000      0.1	20	kkkk	1	0	1
+kkkkt30	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt31	fixed	relative    7.130173      0.1	20	kkkk	1	0	1
+kkkkt32	fixed	relative    7.130173      0.1	20	kkkk	1	0	1
+kkkkt33	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt34	fixed	relative    2.077493      0.1	20	kkkk	1	0	1
+kkkkt62	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt63	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt64	fixed	relative    1.950000      0.1	20	kkkk	1	0	1
+kkkkt65	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt66	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt67	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt68	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt35	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt36	fixed	relative    2.359987      0.1	20	kkkk	1	0	1
+kkkkt41	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt42	fixed	relative   0.9038247      0.1	20	kkkk	1	0	1
+kkkkt40	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt43	fixed	relative    1.578095      0.1	20	kkkk	1	0	1
+kkkkt37	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt38	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt39	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt44	fixed	relative    1.586715      0.1	20	kkkk	1	0	1
+kkkkt51	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt52	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt53	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt54	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt45	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt46	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt47	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt48	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt55	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt49	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt57	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt58	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt59	fixed	relative    1.400000      0.1	20	kkkk	1	0	1
+kkkkt60	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt61	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt50	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt82	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt83	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt8	fixed	relative    5.328751      0.1	20	kkkk	1	0	1
+kkkkt12	fixed	relative    3.355000      0.1	20	kkkk	1	0	1
+kkkkt10	fixed	relative    4.742500      0.1	20	kkkk	1	0	1
+kkkkt11	fixed	relative    2.832000      0.1	20	kkkk	1	0	1
+kkkkt15	fixed	relative    1.780500      0.1	20	kkkk	1	0	1
+kkkkt13	fixed	relative    1.415500      0.1	20	kkkk	1	0	1
+kkkkt14	fixed	relative    1.613500      0.1	20	kkkk	1	0	1
+kkkkt19	fixed	relative    1.400000      0.1	20	kkkk	1	0	1
+kkkkt20	fixed	relative    1.775996      0.1	20	kkkk	1	0	1
+kkkkt17	fixed	relative    2.282500      0.1	20	kkkk	1	0	1
+kkkkt18	fixed	relative    1.707500      0.1	20	kkkk	1	0	1
+kkkkt93	fixed	relative    3.371715      0.1	20	kkkk	1	0	1
+kkkkt94	fixed	relative    1.577729      0.1	20	kkkk	1	0	1
+kkkkt27	fixed	relative    11.02667      0.1	20	kkkk	1	0	1
+kkkkt25	fixed	relative    4.805371      0.1	20	kkkk	1	0	1
+kkkkt26	fixed	relative   0.6000000      0.1	20	kkkk	1	0	1
+kkkkt24	fixed	relative    6.301954      0.1	20	kkkk	1	0	1
+kkkkt95	fixed	relative    1.577729      0.1	20	kkkk	1	0	1
+kkkkt204	fixed	relative    1.400000      0.1	20	kkkk	1	0	1
+kkkkt96	fixed	relative    1.577729      0.1	20	kkkk	1	0	1
+kkkkt97	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt98	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt99	fixed	relative    1.889632      0.1	20	kkkk	1	0	1
+kkkkt100	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt101	fixed	relative    1.896432      0.1	20	kkkk	1	0	1
+kkkkt102	fixed	relative   0.4700000      0.1	20	kkkk	1	0	1
+kkkkt103	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt104	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt105	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt106	fixed	relative    1.766677      0.1	20	kkkk	1	0	1
+kkkkt107	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt108	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt109	fixed	relative   0.4700631      0.1	20	kkkk	1	0	1
+kkkkt110	fixed	relative    2.435501      0.1	20	kkkk	1	0	1
+kkkkt111	fixed	relative   0.9820567      0.1	20	kkkk	1	0	1
+kkkkt112	fixed	relative    1.843573      0.1	20	kkkk	1	0	1
+kkkkt113	fixed	relative    1.770000      0.1	20	kkkk	1	0	1
+kkkkt114	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt115	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt116	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt117	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt118	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt119	fixed	relative    1.395626      0.1	20	kkkk	1	0	1
+kkkkt120	fixed	relative    1.400000      0.1	20	kkkk	1	0	1
+kkkkt121	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt122	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt123	fixed	relative    1.895343      0.1	20	kkkk	1	0	1
+kkkkt124	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt125	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt126	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt127	fixed	relative    1.577055      0.1	20	kkkk	1	0	1
+kkkkt128	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt129	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt132	fixed	relative    2.080000      0.1	20	kkkk	1	0	1
+kkkkt130	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt133	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt134	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt135	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt136	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt137	fixed	relative    1.760000      0.1	20	kkkk	1	0	1
+kkkkt140	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt141	fixed	relative   0.2800000      0.1	20	kkkk	1	0	1
+kkkkt142	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt145	fixed	relative    2.095883      0.1	20	kkkk	1	0	1
+kkkkt143	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt147	fixed	relative    2.030656      0.1	20	kkkk	1	0	1
+kkkkt146	fixed	relative    1.387141      0.1	20	kkkk	1	0	1
+kkkktcs_t3	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt203	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt151	fixed	relative    3.677952      0.1	20	kkkk	1	0	1
+kkkkt169	fixed	relative   0.1000134      0.1	20	kkkk	1	0	1
+kkkkt152	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt153	fixed	relative    1.778128      0.1	20	kkkk	1	0	1
+kkkkt155	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt156	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt170	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt171	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt172	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt173	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt174	fixed	relative    1.573923      0.1	20	kkkk	1	0	1
+kkkkt184	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt185	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt186	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt187	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt188	fixed	relative    2.140000      0.1	20	kkkk	1	0	1
+kkkkt195	fixed	relative    1.545269      0.1	20	kkkk	1	0	1
+kkkkt196	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt197	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt198	fixed	relative   0.9939710      0.1	20	kkkk	1	0	1
+kkkkt199	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt200	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt189	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt190	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt191	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt192	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt193	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt194	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt175	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt176	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt177	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt178	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt179	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt180	fixed	relative    1.070000      0.1	20	kkkk	1	0	1
+kkkkt181	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt182	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt183	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt159	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt158	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt157	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt168	fixed	relative   0.1000134      0.1	20	kkkk	1	0	1
+kkkkt167	fixed	relative   0.1000134      0.1	20	kkkk	1	0	1
+kkkkt166	fixed	relative   0.1000134      0.1	20	kkkk	1	0	1
+kkkkt165	fixed	relative   0.1000134      0.1	20	kkkk	1	0	1
+kkkkt164	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt163	fixed	relative   0.9995143      0.1	20	kkkk	1	0	1
+kkkkt162	fixed	relative    1.579233      0.1	20	kkkk	1	0	1
+kkkkt205	fixed	relative    1.910206      0.1	20	kkkk	1	0	1
+kkkkt206	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt207	fixed	relative   0.4916861      0.1	20	kkkk	1	0	1
+kkkkt208	fixed	relative    1.616981      0.1	20	kkkk	1	0	1
+kkkkt209	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt229	fixed	relative    1.555195      0.1	20	kkkk	1	0	1
+kkkkt210	fixed	relative    3.054143      0.1	20	kkkk	1	0	1
+kkkkt211	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt212	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt213	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt214	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt223	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt224	fixed	relative    1.816834      0.1	20	kkkk	1	0	1
+kkkkt225	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt226	fixed	relative    1.128501      0.1	20	kkkk	1	0	1
+kkkkt227	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt228	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt215	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt216	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt217	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt218	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt219	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt220	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt221	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt260	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt261	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt262	fixed	relative    1.760000      0.1	20	kkkk	1	0	1
+kkkkt267	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt268	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt269	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt270	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt264	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt265	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt266	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt230	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt231	fixed	relative   0.8909295      0.1	20	kkkk	1	0	1
+kkkkt232	fixed	relative   0.8909295      0.1	20	kkkk	1	0	1
+kkkkt233	fixed	relative    1.769140      0.1	20	kkkk	1	0	1
+kkkkt234	fixed	relative    1.949053      0.1	20	kkkk	1	0	1
+kkkkt235	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt257	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt258	fixed	relative    1.900000      0.1	20	kkkk	1	0	1
+kkkkt249	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt250	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt251	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt252	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt253	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt254	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt255	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt256	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt236	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt237	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt246	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt245	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt240	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt241	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt242	fixed	relative    1.000000      0.1	20	kkkk	1	0	1
+kkkkt243	fixed	relative    1.580000      0.1	20	kkkk	1	0	1
+kkkkt244	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkte1_a	fixed	relative    1.205539      0.1	20	kkkk	1	0	1
+kkkkte1_b	fixed	relative    2.003194      0.1	20	kkkk	1	0	1
+kkkkt9	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt16	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt21	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt22	fixed	relative    4.426723      0.1	20	kkkk	1	0	1
+kkkkt23	fixed	relative    4.716621      0.1	20	kkkk	1	0	1
+kkkkt56	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt72	fixed	relative    2.080000      0.1	20	kkkk	1	0	1
+kkkkts_t4	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt131	fixed	relative   0.9987717      0.1	20	kkkk	1	0	1
+kkkkt144	fixed	relative    1.377784      0.1	20	kkkk	1	0	1
+kkkkt148	fixed	relative    1.868028      0.1	20	kkkk	1	0	1
+kkkkt150	fixed	relative    1.920158      0.1	20	kkkk	1	0	1
+kkkkt149	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt154	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt160	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt161	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt201	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt202	fixed	relative    1.375767      0.1	20	kkkk	1	0	1
+kkkkt222	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt238	fixed	relative    1.400188      0.1	20	kkkk	1	0	1
+kkkkt247	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt239	fixed	relative    2.880387      0.1	20	kkkk	1	0	1
+kkkkt248	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt259	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt263	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt84	fixed	relative    4.173500      0.1	20	kkkk	1	0	1
+kkkkt271	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt272	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt139	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt138	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt1_a	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkkt1_b	fixed	relative   0.1000000      0.1	20	kkkk	1	0	1
+kkkk1	fixed	relative    7.002430      0.1	20	kkkk	1	0	1
+kkkk2	fixed	relative    7.002430      0.1	20	kkkk	1	0	1
+v4tt4		none	relative    149.0110      100	200	valv	1	0	1
+v3tt2		none	relative    328.1620      300	400	valv	1	0	1
+vet4tt4		none	relative    150.0000      150	200	valv	1	0	1
+vet1tt1		none	relative    92.19254      50	150	valv	1	0	1
+vgen		none	relative   0.2391600      0.2	30	valv	1	0	1
+t3boya18	none	relative    100.0000      50	100	valv	1	0	1
+t3boya19	none	relative    51.71600      50	100	valv	1	0	1
+t3boya20	none	relative    100.0000      50	100	valv	1	0	1
+t3boya21	none	relative    86.14436      50	100	valv	1	0	1
+t3boya22	none	relative    53.95172      50	100	valv	1	0	1
+t3boya23	none	relative    80.95850      50	100	valv	1	0	1
+t3boya62	none	relative    60.00000      60	200	valv	1	0	1
+v2valve		log	relative    37.00000      25	100	valv	1	0	1
+* observation groups
+obsttt1
+obsttt2
+obsttt4
+obsttt3
+presion
+* observation data
+obsttt1_1	1.958	1	obsttt1
+obsttt1_2	2.025	1	obsttt1
+obsttt1_3	2.05	1	obsttt1
+obsttt1_4	2.07	1	obsttt1
+obsttt1_5	2.085	1	obsttt1
+obsttt1_6	2.065	1	obsttt1
+obsttt1_7	1.97	1	obsttt1
+obsttt1_8	1.89	1	obsttt1
+obsttt1_9	1.89	1	obsttt1
+obsttt1_10	1.853	1	obsttt1
+obsttt1_11	1.845	1	obsttt1
+obsttt1_12	1.755	1	obsttt1
+obsttt1_13	1.685	1	obsttt1
+obsttt1_14	1.635	1	obsttt1
+obsttt1_15	1.63	1	obsttt1
+obsttt1_16	1.7	1	obsttt1
+obsttt1_17	1.77	1	obsttt1
+obsttt1_18	1.787	1	obsttt1
+obsttt1_19	1.84	1	obsttt1
+obsttt1_20	1.83	1	obsttt1
+obsttt1_21	1.855	1	obsttt1
+obsttt1_22	1.87	1	obsttt1
+obsttt1_23	1.873	1	obsttt1
+obsttt1_24	1.908	1	obsttt1
+obsttt1_25	1.958	1	obsttt1
+obsttt1_26	2.025	1	obsttt1
+obsttt1_27	2.05	1	obsttt1
+obsttt1_28	2.07	1	obsttt1
+obsttt1_29	2.085	1	obsttt1
+obsttt1_30	2.065	1	obsttt1
+obsttt1_31	1.97	1	obsttt1
+obsttt1_32	1.89	1	obsttt1
+obsttt1_33	1.89	1	obsttt1
+obsttt1_34	1.853	1	obsttt1
+obsttt1_35	1.845	1	obsttt1
+obsttt1_36	1.755	1	obsttt1
+obsttt1_37	1.685	1	obsttt1
+obsttt1_38	1.635	1	obsttt1
+obsttt1_39	1.63	1	obsttt1
+obsttt1_40	1.7	1	obsttt1
+obsttt1_41	1.77	1	obsttt1
+obsttt1_42	1.787	1	obsttt1
+obsttt1_43	1.84	1	obsttt1
+obsttt1_44	1.83	1	obsttt1
+obsttt1_45	1.855	1	obsttt1
+obsttt1_46	1.87	1	obsttt1
+obsttt1_47	1.873	1	obsttt1
+obsttt1_48	1.908	1	obsttt1
+obsttt1_49	2.03	1	obsttt1
+obsttt1_50	2.03	1	obsttt1
+obsttt1_51	2.03	1	obsttt1
+obsttt1_52	2.04	1	obsttt1
+obsttt1_53	2.03	1	obsttt1
+obsttt1_54	2.01	1	obsttt1
+obsttt1_55	2	1	obsttt1
+obsttt1_56	1.98	1	obsttt1
+obsttt1_57	1.94	1	obsttt1
+obsttt1_58	1.87	1	obsttt1
+obsttt1_59	1.78	1	obsttt1
+obsttt1_60	1.645	1	obsttt1
+obsttt1_61	1.54	1	obsttt1
+obsttt1_62	1.45	1	obsttt1
+obsttt1_63	1.41	1	obsttt1
+obsttt1_64	1.425	1	obsttt1
+obsttt1_65	1.47	1	obsttt1
+obsttt1_66	1.5	1	obsttt1
+obsttt1_67	1.585	1	obsttt1
+obsttt1_68	1.695	1	obsttt1
+obsttt1_69	1.815	1	obsttt1
+obsttt1_70	1.92	1	obsttt1
+obsttt1_71	1.95	1	obsttt1
+obsttt1_72	1.98	1	obsttt1
+obsttt2_1	1.805	1	obsttt2
+obsttt2_2	1.86	1	obsttt2
+obsttt2_3	1.9	1	obsttt2
+obsttt2_4	1.918	1	obsttt2
+obsttt2_5	1.928	1	obsttt2
+obsttt2_6	1.925	1	obsttt2
+obsttt2_7	1.85	1	obsttt2
+obsttt2_8	1.805	1	obsttt2
+obsttt2_9	1.78	1	obsttt2
+obsttt2_10	1.74	1	obsttt2
+obsttt2_11	1.698	1	obsttt2
+obsttt2_12	1.648	1	obsttt2
+obsttt2_13	1.623	1	obsttt2
+obsttt2_14	1.61	1	obsttt2
+obsttt2_15	1.618	1	obsttt2
+obsttt2_16	1.635	1	obsttt2
+obsttt2_17	1.655	1	obsttt2
+obsttt2_18	1.675	1	obsttt2
+obsttt2_19	1.68	1	obsttt2
+obsttt2_20	1.688	1	obsttt2
+obsttt2_21	1.715	1	obsttt2
+obsttt2_22	1.733	1	obsttt2
+obsttt2_23	1.773	1	obsttt2
+obsttt2_24	1.823	1	obsttt2
+obsttt2_25	1.805	1	obsttt2
+obsttt2_26	1.86	1	obsttt2
+obsttt2_27	1.9	1	obsttt2
+obsttt2_28	1.918	1	obsttt2
+obsttt2_29	1.928	1	obsttt2
+obsttt2_30	1.925	1	obsttt2
+obsttt2_31	1.85	1	obsttt2
+obsttt2_32	1.805	1	obsttt2
+obsttt2_33	1.78	1	obsttt2
+obsttt2_34	1.74	1	obsttt2
+obsttt2_35	1.698	1	obsttt2
+obsttt2_36	1.648	1	obsttt2
+obsttt2_37	1.623	1	obsttt2
+obsttt2_38	1.61	1	obsttt2
+obsttt2_39	1.618	1	obsttt2
+obsttt2_40	1.635	1	obsttt2
+obsttt2_41	1.655	1	obsttt2
+obsttt2_42	1.675	1	obsttt2
+obsttt2_43	1.68	1	obsttt2
+obsttt2_44	1.688	1	obsttt2
+obsttt2_45	1.715	1	obsttt2
+obsttt2_46	1.733	1	obsttt2
+obsttt2_47	1.773	1	obsttt2
+obsttt2_48	1.823	1	obsttt2
+obsttt2_49	1.755	1	obsttt2
+obsttt2_50	1.78	1	obsttt2
+obsttt2_51	1.81	1	obsttt2
+obsttt2_52	1.85	1	obsttt2
+obsttt2_53	1.9	1	obsttt2
+obsttt2_54	1.89	1	obsttt2
+obsttt2_55	1.9	1	obsttt2
+obsttt2_56	1.87	1	obsttt2
+obsttt2_57	1.8	1	obsttt2
+obsttt2_58	1.755	1	obsttt2
+obsttt2_59	1.72	1	obsttt2
+obsttt2_60	1.665	1	obsttt2
+obsttt2_61	1.635	1	obsttt2
+obsttt2_62	1.605	1	obsttt2
+obsttt2_63	1.59	1	obsttt2
+obsttt2_64	1.58	1	obsttt2
+obsttt2_65	1.63	1	obsttt2
+obsttt2_66	1.66	1	obsttt2
+obsttt2_67	1.69	1	obsttt2
+obsttt2_68	1.7	1	obsttt2
+obsttt2_69	1.715	1	obsttt2
+obsttt2_70	1.725	1	obsttt2
+obsttt2_71	1.74	1	obsttt2
+obsttt2_72	1.75	1	obsttt2
+obsttt4_1	2.44	1	obsttt4
+obsttt4_2	2.483	1	obsttt4
+obsttt4_3	2.558	1	obsttt4
+obsttt4_4	2.605	1	obsttt4
+obsttt4_5	2.64	1	obsttt4
+obsttt4_6	2.63	1	obsttt4
+obsttt4_7	2.55	1	obsttt4
+obsttt4_8	2.45	1	obsttt4
+obsttt4_9	2.39	1	obsttt4
+obsttt4_10	2.33	1	obsttt4
+obsttt4_11	2.245	1	obsttt4
+obsttt4_12	2.185	1	obsttt4
+obsttt4_13	2.11	1	obsttt4
+obsttt4_14	2.073	1	obsttt4
+obsttt4_15	2.023	1	obsttt4
+obsttt4_16	1.993	1	obsttt4
+obsttt4_17	1.94	1	obsttt4
+obsttt4_18	1.89	1	obsttt4
+obsttt4_19	1.93	1	obsttt4
+obsttt4_20	1.99	1	obsttt4
+obsttt4_21	2.06	1	obsttt4
+obsttt4_22	2.19	1	obsttt4
+obsttt4_23	2.343	1	obsttt4
+obsttt4_24	2.428	1	obsttt4
+obsttt4_25	2.45	1	obsttt4
+obsttt4_26	2.483	1	obsttt4
+obsttt4_27	2.558	1	obsttt4
+obsttt4_28	2.605	1	obsttt4
+obsttt4_29	2.64	1	obsttt4
+obsttt4_30	2.63	1	obsttt4
+obsttt4_31	2.55	1	obsttt4
+obsttt4_32	2.45	1	obsttt4
+obsttt4_33	2.39	1	obsttt4
+obsttt4_34	2.33	1	obsttt4
+obsttt4_35	2.245	1	obsttt4
+obsttt4_36	2.185	1	obsttt4
+obsttt4_37	2.11	1	obsttt4
+obsttt4_38	2.073	1	obsttt4
+obsttt4_39	2.023	1	obsttt4
+obsttt4_40	1.993	1	obsttt4
+obsttt4_41	1.94	1	obsttt4
+obsttt4_42	1.89	1	obsttt4
+obsttt4_43	1.93	1	obsttt4
+obsttt4_44	1.99	1	obsttt4
+obsttt4_45	2.06	1	obsttt4
+obsttt4_46	2.19	1	obsttt4
+obsttt4_47	2.343	1	obsttt4
+obsttt4_48	2.428	1	obsttt4
+obsttt4_49	2.25	1	obsttt4
+obsttt4_50	2.49	1	obsttt4
+obsttt4_51	2.55	1	obsttt4
+obsttt4_52	2.6	1	obsttt4
+obsttt4_53	2.64	1	obsttt4
+obsttt4_54	2.63	1	obsttt4
+obsttt4_55	2.58	1	obsttt4
+obsttt4_56	2.56	1	obsttt4
+obsttt4_57	2.47	1	obsttt4
+obsttt4_58	2.4	1	obsttt4
+obsttt4_59	2.34	1	obsttt4
+obsttt4_60	2.25	1	obsttt4
+obsttt4_61	2.17	1	obsttt4
+obsttt4_62	2.1	1	obsttt4
+obsttt4_63	2.06	1	obsttt4
+obsttt4_64	2.01	1	obsttt4
+obsttt4_65	2.01	1	obsttt4
+obsttt4_66	1.95	1	obsttt4
+obsttt4_67	1.965	1	obsttt4
+obsttt4_68	1.9	1	obsttt4
+obsttt4_69	1.95	1	obsttt4
+obsttt4_70	2.01	1	obsttt4
+obsttt4_71	2.17	1	obsttt4
+obsttt4_72	2.32	1	obsttt4
+obsttt3_1	1.873	1	obsttt3
+obsttt3_2	1.893	1	obsttt3
+obsttt3_3	1.898	1	obsttt3
+obsttt3_4	1.9	1	obsttt3
+obsttt3_5	1.885	1	obsttt3
+obsttt3_6	1.833	1	obsttt3
+obsttt3_7	1.703	1	obsttt3
+obsttt3_8	1.665	1	obsttt3
+obsttt3_9	1.645	1	obsttt3
+obsttt3_10	1.56	1	obsttt3
+obsttt3_11	1.408	1	obsttt3
+obsttt3_12	1.303	1	obsttt3
+obsttt3_13	1.17	1	obsttt3
+obsttt3_14	1.22	1	obsttt3
+obsttt3_15	1.265	1	obsttt3
+obsttt3_16	1.405	1	obsttt3
+obsttt3_17	1.555	1	obsttt3
+obsttt3_18	1.655	1	obsttt3
+obsttt3_19	1.69	1	obsttt3
+obsttt3_20	1.715	1	obsttt3
+obsttt3_21	1.743	1	obsttt3
+obsttt3_22	1.8	1	obsttt3
+obsttt3_23	1.803	1	obsttt3
+obsttt3_24	1.848	1	obsttt3
+obsttt3_25	1.873	1	obsttt3
+obsttt3_26	1.893	1	obsttt3
+obsttt3_27	1.898	1	obsttt3
+obsttt3_28	1.9	1	obsttt3
+obsttt3_29	1.885	1	obsttt3
+obsttt3_30	1.833	1	obsttt3
+obsttt3_31	1.703	1	obsttt3
+obsttt3_32	1.665	1	obsttt3
+obsttt3_33	1.645	1	obsttt3
+obsttt3_34	1.56	1	obsttt3
+obsttt3_35	1.408	1	obsttt3
+obsttt3_36	1.303	1	obsttt3
+obsttt3_37	1.17	1	obsttt3
+obsttt3_38	1.22	1	obsttt3
+obsttt3_39	1.265	1	obsttt3
+obsttt3_40	1.405	1	obsttt3
+obsttt3_41	1.555	1	obsttt3
+obsttt3_42	1.655	1	obsttt3
+obsttt3_43	1.69	1	obsttt3
+obsttt3_44	1.715	1	obsttt3
+obsttt3_45	1.743	1	obsttt3
+obsttt3_46	1.8	1	obsttt3
+obsttt3_47	1.803	1	obsttt3
+obsttt3_48	1.848	1	obsttt3
+obsttt3_49	1.86	1	obsttt3
+obsttt3_50	1.86	1	obsttt3
+obsttt3_51	1.89	1	obsttt3
+obsttt3_52	1.89	1	obsttt3
+obsttt3_53	1.89	1	obsttt3
+obsttt3_54	1.88	1	obsttt3
+obsttt3_55	1.83	1	obsttt3
+obsttt3_56	1.775	1	obsttt3
+obsttt3_57	1.585	1	obsttt3
+obsttt3_58	1.44	1	obsttt3
+obsttt3_59	1.36	1	obsttt3
+obsttt3_60	1.18	1	obsttt3
+obsttt3_61	0.93	1	obsttt3
+obsttt3_62	0.71	1	obsttt3
+obsttt3_63	0.695	1	obsttt3
+obsttt3_64	0.72	1	obsttt3
+obsttt3_65	0.94	1	obsttt3
+obsttt3_66	1.08	1	obsttt3
+obsttt3_67	1.24	1	obsttt3
+obsttt3_68	1.51	1	obsttt3
+obsttt3_69	1.74	1	obsttt3
+obsttt3_70	1.745	1	obsttt3
+obsttt3_71	1.815	1	obsttt3
+obsttt3_72	1.86	1	obsttt3
+obspss1	36.66	0.03	presion
+obspss2	18.11	0.001	presion
+obspss3	28.46	0.03	presion
+obspss4	41.26	0.001	presion
+obspss5	30.36	0.03	presion
+obspss6	49.53	0.03	presion
+obspss7	70.94	0.03	presion
+obspss8	36.66	0.03	presion
+obspss9	12.47	0.03	presion
+obspss10	28.46	0.03	presion
+obspss11	44.08	0.03	presion
+obspss12	31.6	0.03	presion
+obspss13	50.8	0.03	presion
+obspss14	69.42	0.03	presion
+obspss15	36.66	0.03	presion
+obspss16	12.47	0.03	presion
+obspss17	28.46	0.03	presion
+obspss18	47.26	0.001	presion
+obspss19	31.77	0.03	presion
+obspss20	49.53	0.03	presion
+obspss21	70.94	0.03	presion
+obspss22	37.31	0.03	presion
+obspss23	14.59	0.03	presion
+obspss24	29.87	0.03	presion
+obspss25	48.5	0.03	presion
+obspss26	50.8	0.03	presion
+obspss27	34.09	0.03	presion
+obspss28	73.41	0.03	presion
+obspss29	37.48	0.03	presion
+obspss30	17.97	0.03	presion
+obspss31	29.87	0.03	presion
+obspss32	48.5	0.03	presion
+obspss33	37.07	0.03	presion
+obspss34	75.57	0.03	presion
+obspss35	52.21	0.03	presion
+obspss36	37.68	0.03	presion
+obspss37	23.46	0.03	presion
+obspss38	30.57	0.03	presion
+obspss39	54.12	0.03	presion
+obspss40	40.81	0.03	presion
+obspss41	50.8	0.03	presion
+obspss42	79.15	0.03	presion
+obspss43	37.68	0.03	presion
+obspss44	23.33	0.03	presion
+obspss45	30.57	0.03	presion
+obspss46	51.51	0.03	presion
+obspss47	54.9	0.03	presion
+obspss48	42.22	0.03	presion
+obspss49	79.15	0.03	presion
+obspss50	37.37	0.03	presion
+obspss51	24.74	0.03	presion
+obspss52	53.62	0.03	presion
+obspss53	30.57	0.03	presion
+obspss54	54.9	0.03	presion
+obspss55	42.38	0.03	presion
+obspss56	82.32	0.03	presion
+obspss57	36.25	0.03	presion
+obspss58	28.16	0.03	presion
+obspss59	49.55	0.03	presion
+obspss60	30.53	0.03	presion
+obspss61	15	0.001	presion
+obspss62	41.26	0.001	presion
+obspss63	72.59	0.03	presion
+obspss64	28.16	0.03	presion
+obspss65	36.66	0.03	presion
+obspss66	50.97	0.03	presion
+obspss67	30.36	0.03	presion
+obspss68	18.11	0.001	presion
+obspss69	42.67	0.03	presion
+obspss70	70.34	0.03	presion
+obspss71	36.07	0.03	presion
+obspss72	28.16	0.03	presion
+obspss73	49.44	0.03	presion
+obspss74	30.59	0.03	presion
+obspss75	12.47	0.03	presion
+obspss76	45.77	0.03	presion
+obspss77	71.42	0.03	presion
+obspss78	29.57	0.03	presion
+obspss79	36.07	0.03	presion
+obspss80	51.01	0.03	presion
+obspss81	30.36	0.001	presion
+obspss82	10.36	0.03	presion
+obspss83	48.38	0.03	presion
+obspss84	73.41	0.03	presion
+obspss85	36.49	0.03	presion
+obspss86	29.57	0.03	presion
+obspss87	49.46	0.001	presion
+obspss88	34.09	0.03	presion
+obspss89	14.59	0.03	presion
+obspss90	48.5	0.03	presion
+obspss91	74.87	0.03	presion
+obspss92	37.48	0.03	presion
+obspss93	30.27	0.03	presion
+obspss94	50.88	0.03	presion
+obspss95	34.96	0.03	presion
+obspss96	16.56	0.03	presion
+obspss97	53.53	0.03	presion
+obspss98	79.15	0.03	presion
+obspss99	36.98	0.03	presion
+obspss100	30.27	0.03	presion
+obspss101	51.6	0.03	presion
+obspss102	39.4	0.03	presion
+obspss103	22.05	0.03	presion
+obspss104	54.9	0.03	presion
+obspss105	79.15	0.03	presion
+obspss106	36.98	0.03	presion
+obspss107	30.27	0.03	presion
+obspss108	51.61	0.03	presion
+obspss109	26.14	0.03	presion
+obspss110	40.81	0.03	presion
+obspss111	55.12	0.03	presion
+obspss112	82.32	0.03	presion
+obspss113	30.71	0.03	presion
+obspss114	48.3	0.03	presion
+obspss115	31.83	0.03	presion
+obspss116	66.61	0.03	presion
+obspss117	28	0.001	presion
+obspss118	36.61	0.03	presion
+obspss119	48.32	0.03	presion
+obspss120	34.43	0.03	presion
+obspss121	61.87	0.03	presion
+obspss122	25.08	0.03	presion
+obspss123	36.61	0.03	presion
+obspss124	49.75	0.03	presion
+obspss125	35.84	0.001	presion
+obspss126	60.56	0.03	presion
+obspss127	27.9	0.03	presion
+obspss128	48.36	0.03	presion
+obspss129	45.56	0.001	presion
+obspss130	36.66	0.03	presion
+obspss131	40.06	0.03	presion
+obspss132	70.94	0.03	presion
+obspss133	27.72	0.03	presion
+obspss134	36.98	0.03	presion
+obspss135	49.58	0.03	presion
+obspss136	50.09	0.03	presion
+obspss137	78.32	0.03	presion
+obspss138	38.91	0.001	presion
+obspss139	49.6	0.03	presion
+obspss140	36.82	0.03	presion
+obspss141	53.72	0.03	presion
+obspss142	80.55	0.03	presion
+obspss143	40.26	0.03	presion
+obspss144	37.37	0.03	presion
+obspss145	51.72	0.03	presion
+obspss146	53.53	0.03	presion
+obspss147	82.15	0.03	presion
+obspss148	37.52	0.03	presion
+obspss149	28.16	0.03	presion
+obspss150	5.43	0.03	presion
+obspss151	27.46	0.03	presion
+obspss152	6.29	0.03	presion
+obspss153	27.46	0.03	presion
+obspss154	9.66	0.03	presion
+obspss155	27.46	0.03	presion
+obspss156	9.66	0.03	presion
+obspss157	28.16	0.03	presion
+obspss158	11.06	0.03	presion
+obspss159	28.86	0.03	presion
+obspss160	17.97	0.03	presion
+obspss161	29.57	0.03	presion
+obspss162	23.46	0.03	presion
+obspss163	29.57	0.03	presion
+obspss164	22.05	0.03	presion
+* model command line
+epanet2d.exe base99.inp base99_out.txt
+* model input/output
+base99.tpl  base99.inp
+base99.ins base99_out.txt
+* prior information

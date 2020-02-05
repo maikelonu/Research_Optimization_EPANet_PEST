@@ -1,0 +1,201 @@
+PARAMETER SENSITIVITIES: CASE G:\RESPALDO_TEC_ITCR\PEST_TEST\COLOMBIA\ESC9_PARALLEL\DEF99
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         3.209875E-04      4.376568E-02
+   cc142           cc               136.675         3.242278E-04      4.431384E-02
+   cc143           cc               137.921         1.680338E-04      2.317539E-02
+   v4tt4           valv             149.011         7.716278E-05      1.149810E-02
+   v3tt2           valv             328.162         5.838210E-05      1.915879E-02
+   vet4tt4         valv             150.000         8.079231E-05      1.211885E-02
+   vet1tt1         valv             92.1925         1.518230E-04      1.399695E-02
+   vgen            valv            0.239160         1.851581E-02      4.428240E-03
+   t3boya18        valv             100.000         4.947053E-05      4.947053E-03
+   t3boya19        valv             51.7160         6.049948E-05      3.128791E-03
+   t3boya20        valv             100.000         4.424779E-05      4.424779E-03
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         3.904310E-04      2.342586E-02
+   v2valve         valv             37.0000         3.417918E-02      5.359985E-02
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         3.306264E-04      4.507991E-02
+   cc142           cc               136.675         3.492864E-04      4.773872E-02
+   cc143           cc               137.921         2.039602E-04      2.813040E-02
+   v4tt4           valv             149.011         6.630227E-05      9.879768E-03
+   v3tt2           valv             328.162         4.340098E-05      1.424255E-02
+   vet4tt4         valv             150.000         9.278233E-05      1.391735E-02
+   vet1tt1         valv             92.1925         1.271551E-04      1.172275E-02
+   vgen            valv            0.239160         3.280151E-03      7.844810E-04
+   t3boya18        valv             100.000         5.447377E-05      5.447377E-03
+   t3boya19        valv             51.7160         2.391452E-05      1.236763E-03
+   t3boya20        valv             100.000         1.834416E-05      1.834416E-03
+   t3boya21        valv             86.1444         9.080081E-06      7.821978E-04
+   t3boya22        valv             53.9517         2.166885E-21      1.169072E-19
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         4.135600E-04      2.481360E-02
+   v2valve         valv             37.0000         2.359078E-02      3.699511E-02
+
+
+ OPTIMISATION ITERATION NO.  3 ----->
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         3.301034E-04      4.500860E-02
+   cc142           cc               136.675         3.490052E-04      4.770029E-02
+   cc143           cc               137.921         2.039602E-04      2.813040E-02
+   v4tt4           valv             149.011         6.681982E-05      9.956888E-03
+   v3tt2           valv             328.162         4.333547E-05      1.422105E-02
+   vet4tt4         valv             150.000         9.204671E-05      1.380701E-02
+   vet1tt1         valv             92.1925         1.274378E-04      1.174882E-02
+   vgen            valv            0.239160         3.280151E-03      7.844810E-04
+   t3boya18        valv             100.000         5.447377E-05      5.447377E-03
+   t3boya19        valv             51.7160         2.391452E-05      1.236763E-03
+   t3boya20        valv             100.000         1.834416E-05      1.834416E-03
+   t3boya21        valv             86.1444         9.080081E-06      7.821978E-04
+   t3boya22        valv             100.000         5.530973E-06      5.530973E-04
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         4.135600E-04      2.481360E-02
+   v2valve         valv             37.0000         2.376204E-02      3.726368E-02
+
+
+
+                        COMPLETION OF OPTIMISATION PROCESS
+
+ Composite sensitivities for observation group "obsttt1" ----->
+
+ Number of observations with non-zero weight =    72
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         1.292959E-03      0.176291    
+   cc142           cc               136.675         3.369732E-04      4.605581E-02
+   cc143           cc               137.921         1.007171E-04      1.389100E-02
+   v4tt4           valv             149.011         2.084329E-04      3.105879E-02
+   v3tt2           valv             328.162         5.984721E-05      1.963958E-02
+   vet4tt4         valv             150.000         2.618914E-04      3.928371E-02
+   vet1tt1         valv             92.1925         9.039058E-04      8.333337E-02
+   vgen            valv            0.239160          0.00000           0.00000    
+   t3boya18        valv             100.000          0.00000           0.00000    
+   t3boya19        valv             51.7160          0.00000           0.00000    
+   t3boya20        valv             100.000          0.00000           0.00000    
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000          0.00000           0.00000    
+   v2valve         valv             37.0000         0.115307          0.180824    
+
+
+
+ Composite sensitivities for observation group "obsttt2" ----->
+
+ Number of observations with non-zero weight =    72
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         5.673519E-04      7.735673E-02
+   cc142           cc               136.675         3.934999E-04      5.378160E-02
+   cc143           cc               137.921         6.830966E-04      9.421337E-02
+   v4tt4           valv             149.011         2.466211E-04      3.674926E-02
+   v3tt2           valv             328.162         2.870171E-04      9.418812E-02
+   vet4tt4         valv             150.000         2.268046E-04      3.402069E-02
+   vet1tt1         valv             92.1925          0.00000           0.00000    
+   vgen            valv            0.239160          0.00000           0.00000    
+   t3boya18        valv             100.000          0.00000           0.00000    
+   t3boya19        valv             51.7160          0.00000           0.00000    
+   t3boya20        valv             100.000          0.00000           0.00000    
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000          0.00000           0.00000    
+   v2valve         valv             37.0000         0.110783          0.173730    
+
+
+
+ Composite sensitivities for observation group "obsttt4" ----->
+
+ Number of observations with non-zero weight =    72
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         1.328606E-03      0.181151    
+   cc142           cc               136.675         6.344995E-04      8.672022E-02
+   cc143           cc               137.921         2.664724E-04      3.675214E-02
+   v4tt4           valv             149.011         2.947686E-04      4.392377E-02
+   v3tt2           valv             328.162         1.844615E-04      6.053325E-02
+   vet4tt4         valv             150.000         3.464498E-04      5.196746E-02
+   vet1tt1         valv             92.1925          0.00000           0.00000    
+   vgen            valv            0.239160          0.00000           0.00000    
+   t3boya18        valv             100.000          0.00000           0.00000    
+   t3boya19        valv             51.7160          0.00000           0.00000    
+   t3boya20        valv             100.000          0.00000           0.00000    
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         1.134023E-03      6.804138E-02
+   v2valve         valv             37.0000         0.106067          0.166334    
+
+
+
+ Composite sensitivities for observation group "obsttt3" ----->
+
+ Number of observations with non-zero weight =    72
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         3.529899E-04      4.812911E-02
+   cc142           cc               136.675         1.694031E-03      0.231532    
+   cc143           cc               137.921         6.756309E-04      9.318369E-02
+   v4tt4           valv             149.011         2.084329E-04      3.105879E-02
+   v3tt2           valv             328.162         1.196944E-04      3.927916E-02
+   vet4tt4         valv             150.000         1.309457E-04      1.964186E-02
+   vet1tt1         valv             92.1925         3.013019E-04      2.777779E-02
+   vgen            valv            0.239160         0.116225          2.779637E-02
+   t3boya18        valv             100.000         3.105650E-04      3.105650E-02
+   t3boya19        valv             51.7160         3.798023E-04      1.964186E-02
+   t3boya20        valv             100.000         2.777778E-04      2.777778E-02
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         2.171489E-03      0.130289    
+   v2valve         valv             37.0000         9.594105E-02      0.150455    
+
+
+
+ Composite sensitivities for observation group "presion" ----->
+
+ Number of observations with non-zero weight =   164
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         1.847849E-04      2.519486E-02
+   cc142           cc               136.675         3.407044E-04      4.656577E-02
+   cc143           cc               137.921         1.446250E-04      1.994683E-02
+   v4tt4           valv             149.011         3.248181E-06      4.840146E-04
+   v3tt2           valv             328.162         1.762637E-06      5.784306E-04
+   vet4tt4         valv             150.000         2.987183E-06      4.480774E-04
+   vet1tt1         valv             92.1925         1.068515E-05      9.850916E-04
+   vgen            valv            0.239160         7.662342E-04      1.832526E-04
+   t3boya18        valv             100.000          0.00000           0.00000    
+   t3boya19        valv             51.7160          0.00000           0.00000    
+   t3boya20        valv             100.000          0.00000           0.00000    
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         3.462913E-05      2.077748E-03
+   v2valve         valv             37.0000         1.787075E-03      2.802494E-03
+
+
+
+ Composite sensitivities for all observations/prior info ----->
+
+ Number of observations with non-zero weight =   452
+ Parameter name    Group          Current value    Sensitivity       Rel. Sensitivity
+   cc141           cc               136.347         3.209875E-04      4.376568E-02
+   cc142           cc               136.675         3.242278E-04      4.431384E-02
+   cc143           cc               137.921         1.680338E-04      2.317539E-02
+   v4tt4           valv             149.011         7.716278E-05      1.149810E-02
+   v3tt2           valv             328.162         5.838210E-05      1.915879E-02
+   vet4tt4         valv             150.000         8.079231E-05      1.211885E-02
+   vet1tt1         valv             92.1925         1.518230E-04      1.399695E-02
+   vgen            valv            0.239160         1.851581E-02      4.428240E-03
+   t3boya18        valv             100.000         4.947053E-05      4.947053E-03
+   t3boya19        valv             51.7160         6.049948E-05      3.128791E-03
+   t3boya20        valv             100.000         4.424779E-05      4.424779E-03
+   t3boya21        valv             86.1444          0.00000           0.00000    
+   t3boya22        valv             53.9517          0.00000           0.00000    
+   t3boya23        valv             80.9585          0.00000           0.00000    
+   t3boya62        valv             60.0000         3.904310E-04      2.342586E-02
+   v2valve         valv             37.0000         3.417918E-02      5.359985E-02

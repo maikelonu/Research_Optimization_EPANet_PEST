@@ -1,0 +1,6 @@
+ PARAMETER STATISTICAL MATRICES: CASE G:\RESPALDO_TEC_ITCR\PEST_TEST\COLOMBIA\ESC9_PARALLEL\DEF99
+
+ OPTIMISATION ITERATION NUMBER  3
+
+ Cannot evaluate parameter covariance matrix as the "normal matrix"
+ for the current parameter estimation problem is singular.
