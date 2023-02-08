@@ -1,4 +1,4 @@
-tf #
+ptf #
 [JUNCTIONS]				
 ;ID              	Elev        	Demand      	Pattern         	
  V1_A            	1192.1413	0	                	;
