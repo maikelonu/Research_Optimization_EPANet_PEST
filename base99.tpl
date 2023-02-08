@@ -1,4 +1,4 @@
-ptf #
+tf #
 [JUNCTIONS]				
 ;ID              	Elev        	Demand      	Pattern         	
  V1_A            	1192.1413	0	                	;
@@ -329,7 +329,7 @@ ptf #
 
 [RESERVOIRS]
 ;ID              	Head        	Pattern         
- C_Contacto      	1194.7393   	                	;30 cm del borde superior al nivel m·ximo
+ C_Contacto      	1194.7393   	                	;30 cm del borde superior al nivel m√°ximo
 
 [TANKS]
 ;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve
@@ -341,7 +341,7 @@ ptf #
 [PIPES]								
 ;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status	
 T2	V1_B	A5	97.03	84.66	#cc141#	#kkkkT2#	Open	;Codos(3)+Tlat(1)				
-T85	D_2	D3	12.1	45.97	#cc141#	#kkkkT85#	Open	;ReducciÛn				
+T85	D_2	D3	12.1	45.97	#cc141#	#kkkkT85#	Open	;Reducci√≥n				
 T86	D3	D8	162.34	31.8	#cc141#	#kkkkT86#	Open	;Codo(1)				
 T87	D8	V17_A	115.5	31.8	#cc141#	#kkkkT87#	Open	;				
 T88	V17_B	D14	59.87	31.8	#cc141#	#kkkkT88#	Open	;Codo45(2)				
@@ -610,7 +610,7 @@ T239	V50_B	I.49	16	31.8	#cc142#	#kkkkT239#	Open	;Tlat(2)	+	red
 T248	V48_B	V52_A	1.5	40.15	#cc142#	#kkkkT248#	Open	;				
 T259	I.40	V54_A	3.09	40.15	#cc142#	#kkkkT259#	Open	;				
 T263	I.84	V55_A	1	31.8	#cc142#	#kkkkT263#	Open	;				
-T84	V57_B	D_2	41.87	57.45	#cc141#	#kkkkT84#	Open	;Codos(2)+ReducciÛn				
+T84	V57_B	D_2	41.87	57.45	#cc141#	#kkkkT84#	Open	;Codos(2)+Reducci√≥n				
 T271	F17	V59_A	1.5	40.15	#cc142#	#kkkkT271#	Open	;				
 T272	F17	V58_A	2.5	40.15	#cc142#	#kkkkT272#	Open	;				
 T139	V59_B	F21	38.76	40.15	#cc142#	#kkkkT139#	Open	;				
@@ -628,7 +628,7 @@ T1_b	Macro_B	V1_A	0.4	84.66	#cc141#	#kkkkT1_b#	CV	;
  V1              	V1_A            	V1_B            	84.66       	TCV 	0           	0           	;Cierra la entrada de agua a la red
  V17             	V17_A           	V17_B           	31.8        	TCV 	0.2         	0           	;
  V15             	TANQUE1         	V15_B           	45.97       	TCV 	#VGEN#       	0           	;Cierra salida a Los Mangos
- V8              	TANQUE1         	V8_B            	69.55       	TCV 	#VGEN#        	0           	;Cierra San AgustÌn
+ V8              	TANQUE1         	V8_B            	69.55       	TCV 	#VGEN#        	0           	;Cierra San Agust√≠n
  V10             	V10_A           	V10-11          	45.97       	TCV 	0.2         	0           	;
  V11             	V10-11          	V11_B           	31.8        	TCV 	0.2         	0           	;
  V12             	V12_A           	V12_B           	45.97       	TCV 	0.2         	0           	;
@@ -639,7 +639,7 @@ T1_b	Macro_B	V1_A	0.4	84.66	#cc141#	#kkkkT1_b#	CV	;
  V_ET4           	T4_E1           	TANQUE4         	57.45       	TCV 	#VET4TT4#      	0           	;Esta no existe en la realidad, solo hay boya
  V3              	V3_A            	TANQUE2         	57.45       	TCV 	#V3TT2#        	0           	;
  V19             	V19_A           	V19_B           	57.45       	TCV 	0.2         	0           	;
- V20             	V20_A           	V20_B           	69.55       	TCV 	0.2         	0           	;Desconecta parte baja del EdÈn, Andes y Panorama
+ V20             	V20_A           	V20_B           	69.55       	TCV 	0.2         	0           	;Desconecta parte baja del Ed√©n, Andes y Panorama
  V21             	V21_A           	V21_B           	69.55       	TCV 	0.2         	0           	;
  V22             	V22_A           	V22_B           	69.55       	TCV 	0.2         	0           	;
  V25             	V25_A           	V25_B           	84.66       	TCV 	0.2         	0           	;
